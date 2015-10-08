@@ -7,7 +7,7 @@ title: '岡山県立大学情報工学部情報通信工学科 人工知能学�
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www-ime.c.oka-pu.ac.jp" # the base hostname & protocol for your site
-exclude: [Gemfile, Gemfile.lock, script, .git, .gitignore, vendor]
+exclude: [Gemfile, Gemfile.lock, README.md, script, .git, .gitignore, vendor]
 timezone: 'Asia/Tokyo'
 permalink: date
 
