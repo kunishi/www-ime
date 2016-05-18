@@ -18,9 +18,9 @@ before_deploy:
  - chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
  - ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
 
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site/ www-ime@163.225.10.59:public_html/
-  on:
-    branch: master
+# deploy:
+#   provider: script
+#   skip_cleanup: true
+#   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site/ www-ime@163.225.10.59:public_html/
+#   on:
+#     branch: master
